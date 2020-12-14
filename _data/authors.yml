@@ -1,0 +1,26 @@
+default_author:
+  name   : "Unnamed Author!"
+  avatar : "/assets/images/authors/bio_photo1.jpg"
+  bio    : ""
+  links: 
+      
+author_daniel_krueger:
+  name   : "Daniel Krüger"
+  avatar : "/assets/images/authors/bio_dkrueger.png"
+  bio    : ""
+  links: 
+    - label: "About"
+      url: "/authors/daniel_krueger"
+    - label: "Private GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Daniel-Krueger"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/daniel-kr%C3%BCger-1a6083135"
+    - label: "Webcon Community"
+      icon: "fab fa-fw fa-webcon"
+      url: "https://community.webcon.com/"
+    - label: "AlterPaths"
+      #icon: "fab fa-fw fa-linkedin"
+      url: "https://alterpaths.com/"
+      

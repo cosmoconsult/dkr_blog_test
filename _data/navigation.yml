@@ -1,0 +1,23 @@
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
+
+docs:
+  - title: COSMO Consult 
+    children:
+      - title: "Cosmo Consult"
+        url: "https://www.cosmoconsult.com/"
+      - title: "Cosmo Consult GitHub"
+        url: "https://github.com/cosmoconsult"
+  - title: COSMO Consult external blogs
+    children:
+      - title: "Tobias Fenster's Tech Blog"
+        url: "https://https://tobiasfenster.io//"
+      - label: "Cosmo Consult GitHub"
+        url: "https://github.com/cosmoconsult"
