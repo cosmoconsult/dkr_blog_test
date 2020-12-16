@@ -20,11 +20,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 #twitter_username: username
-github_username: daniel-krueger
+#github_username: daniel-krueger
 minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 locale: en
+# posts in draft are not shown
 show_drafts: false
+# Explanation for baseurl:
+# https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 baseurl: /dkr_blog_test
 
 # Build settings

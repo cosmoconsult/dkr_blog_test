@@ -7,7 +7,7 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 .fa-cc {
-    background-image: url("/assets/images/links/favicon_cc.ico");
+    background-image: url("{{ site.baseurl}}/assets/images/links/favicon_cc.ico");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 16px;
@@ -15,7 +15,7 @@
 }
 
 .fa-webcon {
-    background-image: url("/assets/images/links/favicon-webcon.png");
+    background-image: url("{{ site.baseurl}}/assets/images/links/favicon-webcon.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 16px;

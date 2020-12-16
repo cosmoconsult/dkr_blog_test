@@ -3,20 +3,15 @@ default_author:
   avatar : "/assets/images/authors/bio_photo.jpg"
   bio    : ""
   links: 
-      
+      # search for author. for available properties https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/author-profile.html
 author_daniel_krueger:
   name   : "Daniel Krüger"
   avatar : "/assets/images/authors/bio_dkrueger.png"
   bio    : ""
+  home: "/authors/daniel_krueger"
+  linkedin: "Krueger-Daniel"
+  github: "Daniel-Krueger" 
   links: 
-    - label: "About"
-      url: "/authors/daniel_krueger"
-    - label: "Private GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Daniel-Krueger"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/daniel-kr%C3%BCger-1a6083135"
     - label: "Webcon Community"
       icon: "fab fa-fw fa-webcon"
       url: "https://community.webcon.com/"
