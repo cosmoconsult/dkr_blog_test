@@ -1,7 +1,7 @@
 ---
 
 title: "About COSMO Consult inofficial Blog"
-permalink: "/about"
+permalink: "/about/"
 ---
 
 Some Text
