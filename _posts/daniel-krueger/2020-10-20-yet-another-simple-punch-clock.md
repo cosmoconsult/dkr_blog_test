@@ -15,10 +15,10 @@ author: author_daniel_krueger
 # Short description
 [Punch Clock](https://github.com/Daniel-Krueger/PunchClock) is another windows time tracking solution. The focus of this solution is to see whether you are clocked in or out.
 
-![Clock in and out](/assets/images/dkrueger/punchclock/clockIn_out_notification.png)
+![Clock in and out]({{ site.baseurl}}/assets/images/dkrueger/punchclock/clockIn_out_notification.png)
 
 Clocking in and out is achieved by clicking on the icon, which writes the current time and state, clocked in/out, to a csv file.
-![CSV example](/assets/images/dkrueger/punchclock/punchclock_csvfile.png)
+![CSV example]({{ site.baseurl}}/assets/images/dkrueger/punchclock/punchclock_csvfile.png)
 
 One csv file will be created per month and as long as the program runs, the current file is locked. You can still open the file in read only mode in excel or look at it with notepad.
 
@@ -43,7 +43,7 @@ There are a few elements which can be configured:
    - Two columns
 2. Define the label which will be written for clocking in and out.
 3. Define the label for the icon when you are clocked in and out.
-![Configuration file](/assets/images/dkrueger/punchclock/punchclock_config_file.png)
+![Configuration file]({{ site.baseurl}}/assets/images/dkrueger/punchclock/punchclock_config_file.png)
 
 ## Autostart
 The .zip file contains a .bat file which creates a shortcut to the program and places this in the startup folder. Once it's placed in the startup folder the program will automatically be started with windows.
@@ -72,4 +72,4 @@ By default Windows hides some notification icons. You can easily tell Windows to
 2. Select the icon
 3. Drag and drop it to the area
    
-![Drag and drop hidden notification icon](/assets/images/dkrueger/punchclock/punchclock_notification_icon_missing.png)
+![Drag and drop hidden notification icon]({{ site.baseurl}}/assets/images/dkrueger/punchclock/punchclock_notification_icon_missing.png)

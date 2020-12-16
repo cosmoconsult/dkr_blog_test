@@ -15,7 +15,7 @@ author: author_daniel_krueger
 # Explanation
 We can choose between four different colours for a path line, grey, blue, green and red. Choosing a colour makes it easier for the user to read the diagram. This is especially true, if you define when which colour is used. 
 
-![alt](/assets/images/dkrueger/posts/mapping-path-colour/workflow-preview.png)
+![alt]({{ site.baseurl}}/assets/images/dkrueger/posts/mapping-path-colour/workflow-preview.png)
 
 Applying the colour in the diagram is only one part styling. Defining a matching style for the path buttons will make improve this.
 
@@ -26,25 +26,25 @@ All paths which don't leave the step like a *save* path should use the blue colo
 ```css
 background-colour: rgba(7, 150, 221, 0.5);
 ```  
-![Save path](/assets/images/dkrueger/posts/mapping-path-colour/path_save.png)
+![Save path]({{ site.baseurl}}/assets/images/dkrueger/posts/mapping-path-colour/path_save.png)
 
 ## Default positive path
 The default positive path, which will lead to another step or the final positive step.
 ```css
 background-colour: rgba(154, 205, 50, 0.5);
 ``` 
-![Positive path](/assets/images/dkrueger/posts/mapping-path-colour/path_positive.png)
+![Positive path]({{ site.baseurl}}/assets/images/dkrueger/posts/mapping-path-colour/path_positive.png)
 
 ## Negative path
 Negative paths which will lead to another step.
 ```css
 background-colour:rgba(222, 13, 13, 0.5);
 ```
-![image.png](/assets/images/dkrueger/posts/mapping-path-colour/path_negative.png)
+![image.png]({{ site.baseurl}}/assets/images/dkrueger/posts/mapping-path-colour/path_negative.png)
 
 ## Admin paths
 Admin paths, which are only visible if the Admin mode has been activated, should be distinctive. 
 ```css
 background-colour: #fa7fff61;font-style: italic;font-weight: bolder;
 ```
-![image.png](/assets/imagesdkrueger/posts/mapping-path-colour/path_admin.png)
+![image.png]({{ site.baseurl}}/assets/images/dkrueger/posts/mapping-path-colour/path_admin.png)
