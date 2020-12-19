@@ -2,8 +2,7 @@
 
 title: "About Daniel Krüger"
 author: author_daniel_krueger
-author_profile: true
-permalink: "authors/daniel_krueger"
+
 
 ---
 I'm Daniel Krüger living in Germany and my job title is that of a 'developer'. Even so this is my professional title I describe myself as a guy who solves (business) problems with means of IT. If I understand the problem I will find a way to solve it.
@@ -27,5 +26,3 @@ Workflow Engines: SharePoint (__Nintex__), K2, __Webcon BPS__
 Another reason for this broad usage of different technologies is that I had to integrate different technologies from the beginning. This dates back to NAV 3.6 where I created a solution to push any NAV data and reports to SharePoint 2003.
 
 Whenever I do something, I will try to avoid doing something twice. at least if it can be automated in a feasible time frame. This can be something as simple as copying updated files from a dev server to a test server or creating a script for deploying a solution in different environments using a config file with settings for the specific environment. There’s just nothing more annoying and error prone than repeating oneself. :)
-
-If I find the time I'm always up for playing a complex board games like Eclipse, Gloomhaven and Terra Mystica. Which is far less since my children have been born. 

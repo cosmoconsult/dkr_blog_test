@@ -1,9 +1,9 @@
 ---
 title: "Yet another simple punch clock"
+test: 
+  sub: 1
 categories:
-  - Daniel Krueger
-  - GitHub Project
-#   - Private
+  - Webcon BPS
 tags:
   - Notification area
   - Time tracking

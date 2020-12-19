@@ -1,14 +1,13 @@
 ---
 title: "Mapping path button colour to line colour"
 categories: 
-  - Daniel Krueger
   - Webcon BPS
-#   - Cosmo Consult LS GmbH
 tags:
   - User experience
 excerpt:
     Example styles for matching the path button colour it's line in the workflow preview. 
 author: author_daniel_krueger
+author_id: dkrueger
 
 ---
 

@@ -1,16 +1,18 @@
 default_author:
   name   : "Unnamed Author!"
   avatar : "/assets/images/authors/bio_photo.jpg"
-  bio    : ""
-  links: 
-      # search for author. for available properties https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/author-profile.html
+  # internal about page
+  home: "/authors/daniel_krueger"
+
 author_daniel_krueger:
+  author_id: "dkrueger"
   name   : "Daniel Krüger"
   avatar : "/assets/images/authors/bio_dkrueger.png"
-  bio    : ""
+  # internal about page
   home: "/authors/daniel_krueger"
+  # public profile url after "www.linkedin.com/in"
+  # https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
   linkedin: "Krueger-Daniel"
-  github: "Daniel-Krueger" 
   links: 
     - label: "Webcon Community"
       icon: "fab fa-fw fa-webcon"
@@ -18,4 +20,35 @@ author_daniel_krueger:
     - label: "AlterPaths"
       #icon: "fab fa-fw fa-linkedin"
       url: "https://alterpaths.com/"
+  github: "Daniel-Krueger" 
+  # There are more properties which can be found here
+  # Search for "author."  https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/author-profile.html
+  # Geo location
+  #location: ""
+  # bio can be used instead of a custom page
+  #bio    : ""
+  # website url
+  # uri: ""
+  # email: ""
+  # keybase: ""
+  # twitter: ""
+  # facebook: ""
+  # xing: ""
+  # instagram: ""
+  # tumblr: ""
+  # bitbucket: ""
+  # github: ""
+  # gitlab: ""
+  # stackoverflow: ""
+  # lastfm: ""
+  # dribbble: ""
+  # pinterest: ""
+  # foursquare: ""
+  # steam: ""
+  # youtube: ""
+  # soundcloud: ""
+  # weibo: ""
+  # flickr: ""
+  # codepen: ""
+  # vine: ""
       

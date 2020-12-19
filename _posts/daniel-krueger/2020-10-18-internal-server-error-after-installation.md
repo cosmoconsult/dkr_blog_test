@@ -1,8 +1,7 @@
 ---
 title: "Internal server error after installation"
 categories:
-  - Daniel Krueger
-  #- Cosmo Consult LS GmbH
+  - Webcon BPS
 tags:
   - BPS Portal
   - asp.Net Core

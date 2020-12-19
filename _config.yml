@@ -79,6 +79,9 @@ footer:
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/"
 
+collections:
+  authors:
+    output: true
 defaults:
 # default 
   - scope:
@@ -86,7 +89,12 @@ defaults:
     values:
       sidebar:
         nav: "docs"
-
+  - scope:
+      path: "_authors"
+      type: "authors"
+    values:
+      author_profile: true
+      layout: "single"
   # _posts
   - scope:
       path: "_posts"
@@ -119,3 +127,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+author_archive:
+  type: liquid
+  path: /authors/

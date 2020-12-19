@@ -1,0 +1,37 @@
+---
+layout: archive
+---
+{{ content }}
+
+<!-- Authors are sorted by filename -->
+<ul class="taxonomy__index">
+    {% for currentAuthor in site.authors %}
+      {% assign author_post_count = 0 %}
+      {% assign filtered_posts = site.posts | where_exp: "post", "post.author  == currentAuthor.author" %}   
+        
+      {% for post in filtered_posts %}
+        {% assign author_post_count = author_post_count | plus: 1 %}
+      {% endfor %}
+      <li>
+        <a href="#{{ currentAuthor.author| slugify | downcase }}">
+          <strong>{{ site.data.authors[currentAuthor.author].name}}</strong> <span class="taxonomy__count">{{ author_post_count }}</span>
+        </a>
+      </li>
+    {% endfor %}
+</ul>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% for currentAuthor in site.authors %}
+      <section id="{{ currentAuthor.author| slugify | downcase }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{site.data.authors[currentAuthor.author].name}}</h2>
+        <div class="entries-{{ entries_layout }}">
+          {% assign filtered_posts = site.posts | where_exp: "post", "post.author  == currentAuthor.author" %}   
+       
+          {% for post in filtered_posts %}
+          {% include archive-single.html type=entries_layout %}
+          {% endfor %}
+
+        </div>
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+      </section>
+{% endfor %}
